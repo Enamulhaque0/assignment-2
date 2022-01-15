@@ -2,6 +2,7 @@
     padding: 0;}
 /* font-awsome */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* common */
 body{
     font-family: 'Poppins', sans-serif;
     background: #FFFFFF;
@@ -18,7 +19,7 @@ h1{
     font-size: 52px;
 }
 h2{
-    padding-top: 90px;
+    padding-top: 40px;
 }
 h3{
     
@@ -133,7 +134,7 @@ span{
 }
 /* footer */
 .last-work{
-    margin-top: 60px;
+    margin-top: 40px;
     padding-top: 30px;
     padding-bottom: 30px;
     
@@ -152,5 +153,10 @@ span{
 .social-info{
     
     margin-top: 15px;
+   
     
+}
+.social{
+    padding-right: 15px;
+    color: #13df00;
 }

@@ -33,16 +33,20 @@ h3{
     margin-left: 60px;
     margin-top: 160px;
 }
+.products-section{
+    display: flex;
+}
 .infu{
     width: 50%;
 }
 .camera{
     width: 60%;
+    
 }
 .camera img{
     width: 440px;
    
-    margin-left: 20%;
+    margin-left: 25%;
     
 }
 h3{
@@ -51,6 +55,7 @@ h3{
     margin-left: 60px;
 }
 .click{
+    display: inline-block;
     text-decoration: none;
     background-color: #E02C6D;
     color: white;
@@ -159,4 +164,60 @@ span{
 .social{
     padding-right: 15px;
     color: #13df00;
+}
+/* media queures */
+/* phone */
+@media only screen and (max-width:688px) {
+  
+    .container{
+        width: 100%;
+        margin: 0%;   
+   }
+   .infu{
+       width: 100%;
+     
+       margin: 0%;
+   }
+   .products-section, .infu, .photos-info{
+       flex-direction: column;
+    
+   }
+.camera img{
+    margin: 0%;
+    width: 100%;
+} 
+.photos{
+    width: 100%;
+} 
+body{
+    border: 1px solid #000;
+}
+.infu p{
+    font-size: 14px;
+   
+    width: 100%;
+} 
+}
+
+/* tablate */
+@media only screen and (min-width: 688px) and (max-width:992px) 
+ {
+    .container{
+    width: 100%;
+    margin: 0%;
+   
+    }
+    body{
+        border: 1px solid #000;
+    }
+    .photos{
+ width: 48%;
+    }
+    .camera img{
+        width: 50%;
+    }
+    .photos-info{
+        display: flex;
+        flex-direction: row;
+    }
 }
